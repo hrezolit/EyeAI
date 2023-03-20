@@ -13,6 +13,7 @@
 		D500E86D29C6D4CB001B33D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D500E86B29C6D4CB001B33D3 /* Main.storyboard */; };
 		D500E86F29C6D4CD001B33D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D500E86E29C6D4CD001B33D3 /* Assets.xcassets */; };
 		D500E87229C6D4CD001B33D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D500E87029C6D4CD001B33D3 /* LaunchScreen.storyboard */; };
+		D500E87A29C6D59C001B33D3 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D500E87929C6D59B001B33D3 /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D500E86E29C6D4CD001B33D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D500E87129C6D4CD001B33D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D500E87329C6D4CD001B33D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D500E87929C6D59B001B33D3 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				D500E86E29C6D4CD001B33D3 /* Assets.xcassets */,
 				D500E87029C6D4CD001B33D3 /* LaunchScreen.storyboard */,
 				D500E87329C6D4CD001B33D3 /* Info.plist */,
+				D500E87929C6D59B001B33D3 /* Inceptionv3.mlmodel */,
 			);
 			path = EyeAI;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D500E86A29C6D4CB001B33D3 /* ViewController.swift in Sources */,
+				D500E87A29C6D59C001B33D3 /* Inceptionv3.mlmodel in Sources */,
 				D500E86629C6D4CB001B33D3 /* AppDelegate.swift in Sources */,
 				D500E86829C6D4CB001B33D3 /* SceneDelegate.swift in Sources */,
 			);
